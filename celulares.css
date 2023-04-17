@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+    }
+  #area-cabecalho {
+    background-color: #630b79;
+    padding: 15px;
+    text-align: center;
+    }
+    #area-logo, #area-menu {
+    padding: 10px;
+    }
+    #area-principal {
+        width: 920px;
+        margin: 0 auto;
+        padding: 15px;
+        }
+        #area-postagens {
+        width: 660px;
+        float: left;
+        }
+        #area-lateral {
+        width: 240px;
+        float: right;
+        }
+        .postagem{
+        padding: 20px;
+        margin-bottom: 20px;
+        background: rgb(255, 255, 255);
+        }
+        .conteudo-lateral {
+            background: rgb(255, 255, 255);
+            padding: 10px;
+            margin-bottom: 20px;
+            }
+            .postagem-lateral {
+            font-size: 0.8em;
+            padding: 5px;
+            border-bottom: 1px dotted #ff0606;
+            }
+            #rodape {
+            clear: both;
+            text-align: center;
+            padding: 15px;
+            background: #330909;
+            }
+            a {
+                text-decoration: none;
+                }
+                a:link, a:visited {
+                color: #f700f7;
+                }
+                a:hover {
+                text-decoration: underline;
+                }
+                #area-cabecalho a:link, #area-cabecalho a:visited {
+                color: #d8a028;
+                padding: 8px 12px;
+                }
+                #area-cabecalho a:hover {
+                color: #0004f7;
+                background: #d41666;
+                text-decoration: none;
+                }
+                h1 {
+                    color: #16c7be;
+                    font-size: 2.5em;
+                    }
+                    h2 {
+                    color: #00f721;
+                    }
+                    h3 {
+                    color: #6a5de2;
+                    background: #e7620a;
+                    padding: 5px;
+                    }
+                    .branco{
+                    color: rgb(20, 4, 231);
+                    }
+                    .data-postagem {
+                    font-size: 0.8em;
+                    border-bottom: 1px solid #22da22;
+                    padding-bottom: 10px;
+                    margin-bottom: 10px;
+                    display: block;
+                    }
